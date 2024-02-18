@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0 10%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.nav ul li{
+    display: inline;
+    list-style-type: none;
+}
+.nav h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+span{
+    color: #40A2E3;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.nav ul li a:hover{
+    background-color:#40A2E3 ;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.hero{
+    margin: 3rem auto 1rem auto;
+    text-align: center;
+}
+.hero h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.hero h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.profile{
+    margin-top: 3rem;
+    text-align: center;
+}
+.profile-img img{
+    border-radius: 50%;
+}
+hr{
+    opacity: .5;
+}
+.skills{
+    display: flex;
+    gap: 5px;
+    margin-top: 2rem;
+}
+.skill-1{
+    border: 1px solid black ;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.skill-1 p{
+    display: block;
+    
+}
+.skill-1 img{
+    display: block;
+    width: 100%;
+}
+.skill-1 h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+.skill-1 p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #BBE2EC;
+}
+footer .right a{
+    color: black;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
